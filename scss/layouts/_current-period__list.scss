@@ -1,0 +1,26 @@
+.current-period {
+  h2 {
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  &__list {
+    padding: 10px;
+    background-color: rgb(230, 230, 230);
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 4px;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    span {
+      padding: 10px;
+    }
+  }
+}

@@ -1,0 +1,126 @@
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+*,
+*::before,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-size: 24px;
+  color: #2c2c2c;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    margin: 0 auto;
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+header {
+  background-color: #b8bdff;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .github-link:hover, header .github-link:focus {
+  opacity: 0.8;
+}
+
+header .github-link svg {
+  display: block;
+}
+
+.hero__title {
+  text-align: center;
+}
+
+.current-period h2 {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.current-period__list {
+  padding: 10px;
+  background-color: #e6e6e6;
+}
+
+.current-period__item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.current-period__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.current-period__item span {
+  padding: 10px;
+}
+
+footer {
+  background-color: #ff9dea;
+}
+/*# sourceMappingURL=main.css.map */
